@@ -19,6 +19,9 @@ repositories {
 
 dependencies {
 
+	// imoprt jars in lib/
+	compile fileTree(dir:'lib', include:['*.jar'])
+
 	// belt project for new data core
 	compile 'com.rapidminer:belt:1.0.0-BETA'
 

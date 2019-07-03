@@ -241,7 +241,7 @@ public class RapidMinerGUI extends RapidMiner {
 
 		// GUI Parameters MainFrame
 
-		RapidMiner.registerParameter(new ParameterTypeBoolean(MainFrame.PROPERTY_RAPIDMINER_GUI_PLOTTER_SHOW_LEGACY_SIMPLE_CHARTS, "", false));
+		RapidMiner.registerParameter(new ParameterTypeBoolean(MainFrame.PROPERTY_RAPIDMINER_GUI_PLOTTER_SHOW_LEGACY_SIMPLE_CHARTS, "", true));
 		RapidMiner.registerParameter(new ParameterTypeBoolean(MainFrame.PROPERTY_RAPIDMINER_GUI_PLOTTER_SHOW_LEGACY_ADVANCED_CHARTS, "", false));
 		RapidMiner.registerParameter(new ParameterTypeInt(MainFrame.PROPERTY_RAPIDMINER_GUI_PLOTTER_MATRIXPLOT_SIZE, "", 1,
 				Integer.MAX_VALUE, 200));
